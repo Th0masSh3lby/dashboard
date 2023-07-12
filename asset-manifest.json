@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.a69ff6b8.css",
+    "main.css": "/dashboard/static/css/main.c204b737.css",
     "main.js": "/dashboard/static/js/main.d360ef8f.js",
     "static/media/logo.svg": "/dashboard/static/media/logo.19b446da685963c16646d4a2a673c0e0.svg",
     "static/media/trendUpGreen.svg": "/dashboard/static/media/trendUpGreen.6fb2fb609b4e64118235527389fe7944.svg",
@@ -11,11 +11,11 @@
     "static/media/analyticsIcon.svg": "/dashboard/static/media/analyticsIcon.b63717fbea8382ec7bf3b66649f25a6b.svg",
     "index.html": "/dashboard/index.html",
     "static/media/arrowUp.svg": "/dashboard/static/media/arrowUp.84a2f5d8112d74ff9420ead69e045967.svg",
-    "main.a69ff6b8.css.map": "/dashboard/static/css/main.a69ff6b8.css.map",
+    "main.c204b737.css.map": "/dashboard/static/css/main.c204b737.css.map",
     "main.d360ef8f.js.map": "/dashboard/static/js/main.d360ef8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a69ff6b8.css",
+    "static/css/main.c204b737.css",
     "static/js/main.d360ef8f.js"
   ]
 }
