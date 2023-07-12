@@ -4,14 +4,14 @@ import SmallBar from "../elements/SmallBar.js";
 const DailyTraining = () => {
   const yAxis = [160, 120, 80, 40, 0];
   const xAxis = [
-    [35, "S", 60],
+    [30, "S", 60],
     [60, "M", 110],
     [50, "T", 90],
     [65, "W", 120],
     [50, "T", 90],
     [70, "F", 135],
     [50, "S", 90],
-    [35, "M", 60],
+    [30, "M", 60],
     [55, "T", 95],
     [50, "W", 90],
   ];
