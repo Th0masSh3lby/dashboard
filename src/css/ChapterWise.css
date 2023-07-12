@@ -1,0 +1,173 @@
+.ChapterWise {
+  background-color: white;
+  width: 29%;
+  height: auto;
+  margin-right: 1.5%;
+  padding: 0.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.25rem 0 var(--shadow);
+}
+
+.ChapterWise_pie {
+  margin: 0.7rem auto;
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  background: conic-gradient(
+    var(--pie) 0deg,
+    var(--pie) 90deg,
+    white 90deg,
+    white 330deg,
+    var(--pie) 330deg,
+    var(--pie) 360deg
+  );
+  border-radius: 50%;
+  border: 1px solid var(--seperator);
+}
+
+.ChapterWise_seperator1 {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  background-color: var(--seperator);
+  width: 5rem;
+  height: 1px;
+}
+
+.ChapterWise_seperator2 {
+  position: relative;
+  top: 5.16rem;
+  transform: rotate(355deg);
+  background-color: var(--seperator);
+  width: 5rem;
+  height: 1px;
+}
+
+.ChapterWise_seperator3 {
+  position: relative;
+  top: 3.16rem;
+  left: 0.5rem;
+  transform: rotate(60deg);
+  background-color: var(--seperator);
+  width: 7rem;
+  height: 0.5px;
+}
+
+.ChapterWise_seperator4 {
+  position: relative;
+  top: 7.16rem;
+  left: 2.35rem;
+  transform: rotate(70deg);
+  background-color: var(--seperator);
+  width: 7rem;
+  height: 1px;
+}
+
+.ChapterWise_seperator5 {
+  position: relative;
+  top: 7.16rem;
+  left: 1rem;
+  transform: rotate(100deg);
+  background-color: var(--seperator);
+  width: 7rem;
+  height: 1px;
+}
+
+.ChapterWise_polygon {
+  position: absolute;
+  top: 6rem;
+  left: 9rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(69deg);
+  background-color: black;
+}
+
+.ChapterWise_innerCircle {
+  position: relative;
+  top: 2.5rem;
+  left: 2.5rem;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: white;
+  filter: drop-shadow(0px 0px 0.5rem rgba(0, 0, 0, 0.25));
+}
+
+.ChapterWise_data1 {
+  position: relative;
+  z-index: 4;
+  top: -4.1rem;
+  left: 6rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.ChapterWise_data2 {
+  position: relative;
+  z-index: 4;
+  top: 1rem;
+  left: 6rem;
+  font-size: 0.75rem;
+}
+.ChapterWise_data3 {
+  position: relative;
+  z-index: 4;
+  top: 2.7rem;
+  left: 2rem;
+  font-size: 0.75rem;
+}
+.ChapterWise_data4 {
+  position: relative;
+  z-index: 4;
+  top: 1.25rem;
+  left: -2.5rem;
+  font-size: 0.75rem;
+}
+.ChapterWise_data5 {
+  position: relative;
+  z-index: 4;
+  top: -3rem;
+  left: -4rem;
+  font-size: 0.75rem;
+}
+
+.ChapterWise_pieTitle {
+  padding-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+}
+
+.ChapterWise_lastSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  padding-bottom: 0.5rem;
+}
+
+.ChapterWise_lastDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.ChapterWise_dot {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.ChapterWise_text {
+  margin-left: 0.5rem;
+  padding-right: 0.5rem;
+}

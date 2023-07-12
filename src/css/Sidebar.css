@@ -1,0 +1,65 @@
+.Sidebar {
+  width: 21vw;
+  height: 100%;
+  background-color: white;
+}
+
+.Sidebar_logo_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 11%;
+  border-bottom: 0.0625rem solid #333333;
+}
+
+/*Logo CSS*/
+.Sidebar_logo {
+  padding: 1.9rem 0;
+  display: block;
+  width: 12vw;
+}
+
+/*Overview CSS*/
+.Sidebar_overview {
+  margin: 1.25rem auto 0;
+  width: 70%;
+  background-color: var(--blue1);
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+  padding: 0.7rem 1.25rem;
+}
+
+.Sidebar_dashboard_text {
+  color: white;
+  margin-left: 0.625rem;
+  font-size: 1rem;
+}
+
+.Sidebar_dashboard_icon {
+  display: block;
+  height: 1.25rem;
+}
+
+/*Menu CSS*/
+.Sidebar_menu {
+  margin: 0 auto;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1.25rem;
+}
+
+.Sidebar_menu_icon {
+  display: block;
+  height: 1.3rem;
+}
+
+.Sidebar_menu_text {
+  color: black;
+  margin-left: 0.625rem;
+  font-size: 1rem;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import Analytics from "./components/Analytics";
+import ChapterWise from "./components/ChapterWise";
+import Last14Days from "./components/Last14Days";
+import MonthlyActivity from "./components/MonthlyActivity";
+import QuizPassing from "./components/QuizPassing";
+import DailyTraining from "./components/DailyTraining";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar />
+      <Header />
+      <Analytics />
+      <div className="MiddleSection">
+        <ChapterWise />
+        <Last14Days />
+      </div>
+      <div className="LastSection">
+        <MonthlyActivity />
+        <QuizPassing />
+        <DailyTraining />
+      </div>
     </div>
   );
 }

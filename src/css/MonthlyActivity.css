@@ -1,0 +1,36 @@
+.MonthlyActivity {
+  background-color: white;
+  width: 22.5%;
+  height: 40vh;
+  margin-right: 1.5%;
+  padding: 0.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.25rem 0 var(--shadow);
+}
+
+.MonthlyActivity_subTitle {
+  margin: 0.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  color: #aaaaaa;
+}
+
+.arrowUp {
+  display: block;
+  height: 0.8rem;
+}
+
+.MonthlyActivity_mainContent {
+  display: flex;
+}
+
+.MonthlyActivity_courseTitle {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.MonthlyActivity_courseDes {
+  font-size: 0.6rem;
+  padding-bottom: 0.8rem;
+}

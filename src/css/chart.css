@@ -1,0 +1,104 @@
+.Chart {
+  width: 118px;
+}
+
+.Chart_Graph {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 108px;
+  height: 60px;
+  margin: 0 5px;
+}
+
+/*Monday-Tuesday div*/
+.Chart_MT {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.Chart_MT_block {
+  width: 18px;
+  height: 100%;
+  background-color: white;
+}
+.Chart_MT_triangle {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border-right: 18px solid transparent;
+  border-top: 50px solid white;
+}
+
+/*Tuesday-Wednesday div*/
+.Chart_TW {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.Chart_TW_block {
+  width: 18px;
+
+  background-color: white;
+}
+.Chart_TW_triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 18px solid transparent;
+  border-top: 20px solid white;
+}
+
+/*Wednesday-Thursday div*/
+.Chart_WTh {
+  width: 18px;
+  height: 30px;
+  background-color: white;
+}
+
+/*Thursday-Friday div*/
+
+.Chart_ThF {
+  margin: 0;
+  width: 0px;
+  height: 0px;
+  transform: rotate(180deg);
+  border-left: 18px solid transparent;
+  border-bottom: 30px solid white;
+}
+
+/*Friday-Saturday div*/
+
+.Chart_FS {
+  width: px;
+  transform: rotate(180deg);
+  border-right: 18px solid transparent;
+  border-bottom: 22.5px solid white;
+}
+
+/*Saturday-Sunday div*/
+
+.Chart_SS {
+  display: grid;
+  grid-template-rows: 37.5% 62.5%;
+}
+
+.Chart_SS_block {
+  width: 100%;
+  background-color: white;
+}
+
+.Chart_SS_triangle {
+  width: 0px;
+  height: 0px;
+  transform: rotate(180deg);
+  border-right: 18px solid transparent;
+  border-bottom: 37.5px solid white;
+}
+
+/*Chart-Axis div*/
+.Chart_Axis {
+  margin: 0 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 8px;
+}

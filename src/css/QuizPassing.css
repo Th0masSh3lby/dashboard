@@ -1,0 +1,79 @@
+:root {
+  --green: rgba(1, 142, 66, 1);
+  --red: rgba(237, 28, 36, 1);
+}
+
+.QuizPassing {
+  background-color: white;
+  width: 30%;
+  height: 40vh;
+  margin-right: 1.5%;
+  padding: 0.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.25rem 0 var(--shadow);
+}
+
+.QuizPassing_circle1 {
+  margin: 2rem 0 0 1rem;
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--green) 0deg,
+    var(--green) 90deg,
+    var(--red) 90deg,
+    var(--red) 225deg,
+    var(--green) 225deg,
+    var(--green) 3600deg
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuizPassing_circle2 {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.QuizPassing_data {
+  position: relative;
+  top: -8rem;
+  left: 12rem;
+}
+
+.QuizPassing_data1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.QuizPassing_data1Dot,
+.QuizPassing_data2Dot {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+
+.QuizPassing_data1Dot {
+  background: var(--green);
+}
+
+.QuizPassing_data2Dot {
+  background: var(--red);
+}
+
+.QuizPassing_dataTitle {
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.QuizPassing_dataDes {
+  font-size: 0.5rem;
+}

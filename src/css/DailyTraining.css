@@ -1,0 +1,91 @@
+.DailyTraining {
+  background-color: white;
+  width: 42%;
+  height: 40vh;
+  padding: 0.85rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.25rem 0 var(--shadow);
+}
+
+.DailyTraining_section1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.DailyTraining_title {
+  font-weight: 600;
+}
+
+.DailyTraining_barGraph {
+  padding-top: 1rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.DailyTraining_yAxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10.5rem;
+  margin: 0 1.3rem;
+  font-size: 0.6rem;
+}
+
+.DailyTraining_back {
+  padding-top: 0.2rem;
+  position: absolute;
+  left: 41rem;
+  width: 23rem;
+  height: 10rem;
+  opacity: 0.1;
+  z-index: 4;
+}
+
+.DailyTraining_line,
+.DailyTraining_line1,
+.DailyTraining_line2,
+.DailyTraining_line3,
+.DailyTraining_line4 {
+  position: relative;
+  width: 23rem;
+  height: 1px;
+  background: black;
+}
+
+.DailyTraining_line {
+  top: 10rem;
+}
+
+.DailyTraining_line1 {
+  top: 2.4rem;
+}
+
+.DailyTraining_line2 {
+  top: 4.9rem;
+}
+
+.DailyTraining_line3 {
+  top: 7.4rem;
+}
+
+.DailyTraining_line4 {
+  top: 9.9;
+}
+
+.DailyTraining_bars {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.2rem;
+}
+
+.DailyTraining_singleBar {
+  margin-right: 1.75rem;
+  font-size: 0.75rem;
+}
+
+.DailyTraining_xAxis {
+  padding-top: 0.5rem;
+}

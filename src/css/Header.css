@@ -1,0 +1,54 @@
+.Header {
+  position: absolute;
+  top: 0;
+  left: 21vw;
+  width: 78vw;
+  height: 17%;
+  font-size: 2rem;
+  color: black;
+  border-radius: 0 0 10px 10px;
+  background-color: var(--blue);
+  margin: 0;
+  overflow: hidden;
+}
+
+.Header_Circle1 {
+  position: absolute;
+  width: 75vw;
+  height: 100vh;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.5;
+  box-shadow: 3rem 6rem 5rem 7rem var(--circle) inset;
+  z-index: 2;
+}
+
+.Header_Circle2 {
+  position: absolute;
+  z-index: 1;
+  top: -120px;
+  left: 20px;
+  width: 90vw;
+  height: 100vh;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: white;
+  box-shadow: 3rem 6rem 5rem 7rem var(--circle) inset;
+}
+
+.Header_title {
+  position: absolute;
+  z-index: 3;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 2rem;
+}
+
+.Header_subTitle {
+  position: absolute;
+  z-index: 3;
+  font-size: 1rem;
+  color: white;
+  margin: 4rem 0 0 2rem;
+}
